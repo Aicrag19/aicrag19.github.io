@@ -1,0 +1,441 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--color-text-light);
+    background-color: var(--color-black);
+    --color-black: #1a1a1a;
+    --color-lila: #9966cc;
+    --color-light-grey: #f0f0f0;
+    --color-white: #FFFFFF;
+    --color-text-light: #cccccc;
+}
+
+.seccionGeneral {
+    padding: 60px 20px;
+}
+
+.informacionProyecto {
+    padding: 20px;
+}
+
+.habilidadesCategoria {
+    padding: 20px;
+}
+
+.tituloHeader {
+    margin-bottom: 5px;
+    font-family: "UnifrakturMaguntia";
+}
+
+.navlist li {
+    margin: 0 15px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin:auto;
+    align-items: center;
+}
+
+p{
+    font-family: "Metamorphous", serif;
+}
+
+.seccionNegra {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.seccionGris {
+    background-color: var(--color-light-grey);
+    color: var(--color-black);
+}
+
+.link-lila {
+    color: var(--color-lila);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link-lila:hover {
+    color: #b388ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-lila {
+    background-color: var(--color-lila);
+    color: var(--color-white);
+    border: 1px solid var(--color-lila);
+}
+
+.btn-lila:hover {
+    background-color: #7f4f9f;
+    border-color: #7f4f9f;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: var(--color-lila);
+    border: 1px solid var(--color-lila);
+}
+
+.btn-transparent:hover {
+    background-color: var(--color-lila);
+    color: var(--color-white);
+}
+
+.seccionTitulo {
+    font-family: "UnifrakturMaguntia";
+    font-size: 2.5rem;
+    color: var(--color-lila);
+    text-align: center;
+}
+
+.header {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.imagenEspacioEduca {
+    padding-left:15px;
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.programacion {
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+}
+
+.headerContenedor {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.fotoPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-lila);
+}
+
+.tituloHeader {
+    font-family: "UnifrakturMaguntia";
+    font-size: 3rem;
+    color: var(--color-lila);
+}
+
+.subtituloHeader {
+    font-size: 1.2rem;
+    color: var(--color-white);
+    margin-top: 0;
+}
+
+.navBar {
+    margin-top: 25px;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.navlink {
+    font-family:"Metamorphous", serif;
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+}
+
+.navlink:hover {
+    color: var(--color-lila);
+}
+
+.textoSobreMi {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+}
+
+.contactoSobreMi {
+    text-align: center;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+
+.contenedorHabilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.habilidadesCategoria {
+    background-color: var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    flex: 1 1 calc(33% - 40px);
+    min-width: 280px;
+    box-sizing: border-box;
+    text-align: center;
+    color: var(--color-black);
+    font-family: "Pirata One", system-ui;
+}
+
+.habilidadesCategoria h3 {
+    color: var(--color-lila);
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-family: "Metamorphous", serif;
+}
+
+.listaHabilidades {
+    list-style: none;
+    padding: 0;
+    margin-top:0;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    align-content:center;
+}
+.listaHabilidadesBlandas {
+    list-style: none;
+    padding: 0;
+    margin-top:0;
+    text-align: center;
+    display:block;
+}
+.listaHabilidadesDuras {
+    list-style: none;
+    padding: 0;
+    margin-top:0;
+    text-align: center;
+    display:block;
+}
+.imagenHabilidades{
+    width: 350px;
+    height: 125px;
+}
+
+.listaHabilidades li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+.listaHabilidades li::before {
+    content: '•';
+    color: var(--color-lila);
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.listaHabilidadesBlandas li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+.listaHabilidadesBlandas li::before {
+    content: '•';
+    color: var(--color-lila);
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.listaHabilidadesDuras li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+.listaHabilidadesDuras li::before {
+    content: '•';
+    color: var(--color-lila);
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.contenedorProyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    font-family: "Pirata One", system-ui;
+}
+
+.proyectos {
+    background-color: var(--color-black);
+    color: var(--color-light-grey);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenProyecto {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+#contacto {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "UnifrakturMaguntia";
+}
+
+#contacto h1 {
+    color: var(--color-lila);
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    margin-bottom: 25px;
+    color:var(--color-black);
+}
+
+.informacionContacto {
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.informacionContacto p {
+    color:var(--color-black);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.informacionContacto strong {
+    color: #555;
+    min-width: 80px;
+}
+
+.imagenContacto{
+    width: 300px;
+    height: 200px;
+}
+
+.piePagina {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 25px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--color-lila);
+}
+
+.contenidoPiePagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.linkPiePagina {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .tituloHeader {
+        font-size: 2.2rem;
+    }
+
+    .subtituloHeader {
+        font-size: 1rem;
+    }
+
+    .navBar {
+        margin-top: 20px;
+    }
+
+    .navlist {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navlist li {
+        margin: 0;
+    }
+
+    .section-padding {
+        padding: 40px 15px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .skills-grid, .project-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-category, .project-card {
+        width: 95%;
+        max-width: 400px;
+    }
+
+    .project-image {
+        height: 180px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-links {
+        margin-top: 10px;
+    }
+}

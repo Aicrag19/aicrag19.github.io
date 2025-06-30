@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Mi Currículum Web</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Pirata+One&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="headerContenedor">
+            <h1 class="tituloHeader">Delenyer Garcia</h1>
+                <img src="imagenes/yo.jpeg" alt="foto" class="fotoPerfil">
+            <p class="subtituloHeader">Desarrollador Web</p>
+            <div class="navBar">
+                <ul class="navlist">
+                    <li><a href="#sobreMi" class="navlink">Sobre Mí</a></li>
+                    <li><a href="#habilidades" class="navlink">Habilidades</a></li>
+                    <li><a href="#proyectos" class="navlink">Proyectos</a></li>
+                    <li><a href="#contacto" class="navlink">Contactame</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobreMi" class="seccionGeneral seccionNegra">
+            <div class="contenedor">
+                  <img src="imagenes/fondo.jpg" class="programacion"> 
+                <h2 class="seccionTitulo">Sobre Mí</h2>
+                <p class="textoSobreMi">Soy Delenyer soy un joven de 15 años que estudia en el Colegio UEP Corazon de Maria,soy un desarrollador web apasionado por crear experiencias digitales intuitivas y atractivas. Con experiencia en basicas en HTML CSS y JavaScript, disfruto transformando ideas y ocurrencias  en soluciones funcionales y visualmente agradables. Siempre estoy en busca de aprender y aplicar nuevas cosas para construir productos de la mejor calidad.</p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="seccionGeneral seccionGris">
+            <div class="container">
+                <h2 class="seccionTitulo">Mis Habilidades</h2>
+                <div class="contenedorHabilidades">
+                    <div class="habilidadesCategoria">
+                        <h3>Lenguajes de Programación</h3>
+                        <ul class="listaHabilidades">
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                        </ul>
+                        <img src="imagenes/habilidades/lista.png" class="imagenHabilidades">
+                    </div>
+                    <div class="habilidadesCategoria">
+                        <h3>Habilidades Blandas</h3>
+                        <ul class="listaHabilidadesBlandas">
+                            <li>Capacidad de Trabajo en equipo</li>
+                            <li>Resolucion de Problemas</li>
+                            <li>Adaptabilidad</li>
+                            <li>Creatividad</li>
+                            <li>Liderazgo</li>
+                            <li>Pensamiento Critico</li>
+                            </ul>
+                    </div>
+                    <div class="habilidadesCategoria">
+                        <h3>Habilidades Duras</h3>
+                        <ul class="listaHabilidadesDuras">
+                            <li>Habilidades de Diseño</li>
+                            <li>Conocimiento sobre el uso VS Code</li>
+                            <li>Habilidades generales en Informatica</li>
+                            <li>Diseño Basico sobre paginas Web</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyecto" class="seccionGeneral seccionNegra">
+            <div class="contenedor">
+                <h2 class="seccionTitulo">Mis Proyectos</h2>
+                <div class="contenedorProyectos">
+                    <div class="proyectos">
+                    <div class="proyecto1">
+                        <h1>Proyecto Calculadora de Pesos en otros planetas</h1>
+                        <img id="proyecto1" class="imagenProyecto" src="imagenes/proyecto1.png">
+                        <button onclick="mostrarProyecto('#proyecto1')" class="btn-lila">ver proyecto</button>
+                    </div>
+                    <div class="proyecto2">
+                        <h1>Proyecto Articulo sobre Eladio Carrion</h1>
+                        <img id="proyecto2" class="imagenProyecto" src="imagenes/proyecto2 articulo.png">
+                        <br>
+                        <button onclick="mostrarProyecto('#proyecto2')" class="btn-lila">ver proyecto</button>
+                    </div>  
+                    <div class="proyecto3">
+                        <h1>Proyecto Super Mario Bros</h1>
+                        <img id="proyecto3" class="imagenProyecto" src="imagenes/proyecto4.png">
+                        <br>
+                        <button onclick="mostrarProyecto('#proyecto3')" class="btn-lila">ver proyecto</button>
+                    </div>
+                    <div class="proyecto4">
+                        <h1>Proyecto Galeria de Fotos</h1>
+                        <img id="proyecto4" class="imagenProyecto" src="imagenes/proyecto5.png">
+                        <br>
+                        <button onclick="mostrarProyecto('#proyecto4')" class="btn-lila">ver proyecto</button>
+                    </div>
+                </div>       
+            </div>
+        </section>
+    <section id="contacto">
+        <h1>Contactactame</h1>
+        <p>¡Me encanta saber de ustedes! Si tienen preguntas, sugerencias o simplemente quieren saludar, no duden en contactarme. Aquí tienen mis datos:</p>
+        <div class="informacionContacto">
+            <img src="imagenes/contacto.png" class="imagenContacto">
+            <p><strong>Email:</strong> <span id="creatorEmail">delenyer19@gmail.com</span> 
+            <p><strong>Teléfono:</strong> <span id="creatorPhone">+58 416 394 9410</span> 
+            <p><strong>Red Social Principal Instagram:</strong> <span id="creatorSocial">@aicrag19</span> 
+        </div>
+    </section>
+    </main>
+
+    <footer class="piePagina">
+    <img src="imagenes/espacioEduca.png"class="imagenEspacioEduca">
+        <div class="contenidoPiePagina">
+            <p>&copy; 2025 Ddg. Todos los derechos reservados.</p>
+        </div>
+        
+    </footer>
+    
+</body>
+ <script src="script.js"></script>
+</html>
